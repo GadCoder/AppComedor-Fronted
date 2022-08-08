@@ -1,0 +1,34 @@
+.mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0rem 1rem;
+}
+.loginContainer{
+    background-color: #fafafafa;
+    border-radius: 15px;
+    padding: 1rem 2rem;
+}
+.fieldsContainer{
+    padding: 1rem 1rem;
+}
+.centerText{
+    text-align: center;
+}
+.rightText{
+    text-align: end;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    .fieldsContainer{
+        padding: 0rem 4rem;
+    }
+
+    .loginContainer{
+        width: 70vh;
+        height: 75vh;
+        padding: 2rem 4em;
+    }
+  }
